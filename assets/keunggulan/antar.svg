@@ -1,0 +1,25 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgAntar" x1="14" y1="12" x2="148" y2="148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9EE"/>
+      <stop offset="1" stop-color="#FFE9C3"/>
+    </linearGradient>
+    <linearGradient id="truckAntar" x1="44" y1="72" x2="118" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EF3A24"/>
+      <stop offset="1" stop-color="#B40F14"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="136" height="136" rx="28" fill="url(#bgAntar)"/>
+  <circle cx="80" cy="80" r="42" fill="#FFF4DB"/>
+  <path d="M44 58H66" stroke="#D92121" stroke-width="4.2" stroke-linecap="round"/>
+  <path d="M48 50H72" stroke="#D92121" stroke-width="4.2" stroke-linecap="round"/>
+  <rect x="42" y="74" width="56" height="30" rx="8" fill="url(#truckAntar)"/>
+  <path d="M98 81H109L118 91V104H98V81Z" fill="#F2C426"/>
+  <rect x="102" y="85" width="11" height="8" rx="1.8" fill="#FFF4DB"/>
+  <circle cx="58" cy="108" r="8" fill="#7D1418"/>
+  <circle cx="58" cy="108" r="3.3" fill="#FFF4DB"/>
+  <circle cx="103" cy="108" r="8" fill="#7D1418"/>
+  <circle cx="103" cy="108" r="3.3" fill="#FFF4DB"/>
+  <circle cx="111" cy="55" r="10" fill="#F2C426"/>
+  <path d="M107 55.3L110.2 58.2L115.3 53.3" stroke="#B40F14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

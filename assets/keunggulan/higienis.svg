@@ -1,0 +1,20 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgHigienis" x1="14" y1="12" x2="148" y2="148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9EE"/>
+      <stop offset="1" stop-color="#FFE9C3"/>
+    </linearGradient>
+    <linearGradient id="shieldHigienis" x1="80" y1="50" x2="80" y2="114" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EF3A24"/>
+      <stop offset="1" stop-color="#B40F14"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="136" height="136" rx="28" fill="url(#bgHigienis)"/>
+  <circle cx="80" cy="80" r="42" fill="#FFF4DB"/>
+  <path d="M80 51L106 59V77C106 93 95 107 80 112C65 107 54 93 54 77V59L80 51Z" fill="url(#shieldHigienis)"/>
+  <path d="M80 59L98 64.6V77.2C98 89.8 89.8 100.6 80 104.2C70.2 100.6 62 89.8 62 77.2V64.6L80 59Z" fill="#F4C253"/>
+  <rect x="74" y="68" width="12" height="27" rx="3.2" fill="#B40F14"/>
+  <rect x="66" y="76" width="28" height="12" rx="3.2" fill="#B40F14"/>
+  <circle cx="111" cy="55" r="10" fill="#F2C426"/>
+  <path d="M107 55.3L110.2 58.2L115.3 53.3" stroke="#B40F14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgRasa" x1="14" y1="12" x2="148" y2="148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9EE"/>
+      <stop offset="1" stop-color="#FFE9C3"/>
+    </linearGradient>
+    <linearGradient id="bowlRasa" x1="80" y1="82" x2="80" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EF3A24"/>
+      <stop offset="1" stop-color="#B40F14"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="136" height="136" rx="28" fill="url(#bgRasa)"/>
+  <circle cx="80" cy="80" r="42" fill="#FFF4DB"/>
+  <path d="M50 94C50 83.5 63.4 75 80 75C96.6 75 110 83.5 110 94C110 104.5 96.6 113 80 113C63.4 113 50 104.5 50 94Z" fill="url(#bowlRasa)"/>
+  <path d="M58 92C58 85.3 67.9 80 80 80C92.1 80 102 85.3 102 92C102 98.7 92.1 104 80 104C67.9 104 58 98.7 58 92Z" fill="#F7CC7C"/>
+  <path d="M68 67C68 63 71 60 75 60H85C89 60 92 63 92 67V70H68V67Z" fill="#D4302A"/>
+  <path d="M63 53C63 53 60.5 57 63 61" stroke="#B40F14" stroke-width="3" stroke-linecap="round"/>
+  <path d="M76 49C76 49 73.5 53 76 57" stroke="#B40F14" stroke-width="3" stroke-linecap="round"/>
+  <path d="M89 53C89 53 86.5 57 89 61" stroke="#B40F14" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="111" cy="55" r="10" fill="#F2C426"/>
+  <path d="M107 55.3L110.2 58.2L115.3 53.3" stroke="#B40F14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

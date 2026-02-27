@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hakim Aqiqah & Qurban | Solusi Praktis & Sesuai Syariat Islam</title>
+    <meta
+      name="description"
+      content="Hakim Aqiqah & Qurban menyediakan layanan aqiqah dan qurban praktis, transparan, sesuai syariat Islam dengan pilihan paket lengkap."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Hakim Aqiqah & Qurban",
+        "image": "https://via.placeholder.com/1200x630",
+        "telephone": "+62-821-9257-0822",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Desa Pasar V Kebun Kelapa, Kec.Beringin, Kab Deli Serdang",
+          "addressLocality": "Medan",
+          "postalCode": "20552",
+          "addressCountry": "ID"
+        },
+        "url": "https://example.com",
+        "priceRange": "Rp1.000.000 - Rp3.850.000",
+        "areaServed": "Deli Serdang, Medan, dan sekitarnya",
+        "sameAs": [
+          "https://www.instagram.com/aqiqahhakim/",
+          "https://www.facebook.com/hakimaqiqah",
+          "https://www.tiktok.com/@hakimaqiqah"
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Apakah penyembelihan benar-benar sesuai syariat?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ya, penyembelihan dilakukan sesuai sunnah dengan proses transparan."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Berapa minimal waktu pemesanan sebelum hari H?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Idealnya 2-3 hari sebelum hari pelaksanaan agar persiapan optimal."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apakah bisa pilih hewan aqiqah atau qurban sendiri?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bisa, customer bebas memilih hewan sesuai kebutuhan."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apakah ada dokumentasi penyembelihan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ada, customer bisa melihat langsung atau menerima dokumentasi via WhatsApp."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apakah qurban sudah termasuk penyaluran?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ya, tersedia layanan penyaluran ke pondok pesantren, masjid, panti asuhan, dan lainnya."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Top Contact Bar -->
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <a href="https://wa.me/6282192570822" target="_blank" rel="noopener" class="topbar-item">
+          <img src="assets/icons/phone.svg" alt="" aria-hidden="true" />
+          <span>0821 9257 0822</span>
+        </a>
+        <a href="https://wa.me/6282164901418" target="_blank" rel="noopener" class="topbar-item">
+          <img src="assets/icons/whatsapp.svg" alt="" aria-hidden="true" />
+          <span>0821 6490 1418</span>
+        </a>
+        <a href="https://www.instagram.com/aqiqahhakim/" target="_blank" rel="noopener" class="topbar-item">
+          <img src="assets/icons/instagram.svg" alt="" aria-hidden="true" />
+          <span>@aqiqahhakim</span>
+        </a>
+        <a href="https://www.tiktok.com/@hakimaqiqah" target="_blank" rel="noopener" class="topbar-item">
+          <img src="assets/icons/tiktok.svg" alt="" aria-hidden="true" />
+          <span>@hakimaqiqah</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Sticky Navbar -->
+    <header class="header">
+      <nav class="navbar container">
+        <a href="#beranda" class="logo" aria-label="Hakim Aqiqah dan Qurban">
+          <img src="logo.jpg" alt="Logo Hakim Aqiqah dan Qurban" class="logo-image" />
+        </a>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#paket">Paket Aqiqah</a></li>
+          <li><a href="#keunggulan">Keunggulan</a></li>
+          <li><a href="#testimoni">Testimoni</a></li>
+          <li><a href="#qurban">Qurban</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a
+            class="btn btn-whatsapp nav-cta"
+            href="https://wa.me/6282192570822?text=Assalamu%27alaikum%2C%20saya%20ingin%20konsultasi%20Aqiqah%20dan%20Qurban."
+            target="_blank"
+            rel="noopener"
+            data-track="nav_whatsapp"
+            >WhatsApp</a
+          >
+          <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Buka menu navigasi"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="section section-white hero" id="beranda">
+        <div class="container hero-inner">
+          <div class="hero-content reveal">
+            <p class="eyebrow">Hakim Aqiqah &amp; Qurban</p>
+            <h1>Solusi Aqiqah Praktis &amp; Sesuai Syariat Islam</h1>
+            <p class="hero-subtitle">
+              Paket lengkap mulai dari aqiqah mentah sampai bento premium. Semua proses transparan, sesuai sunnah, dan siap antar sampai rumah tanpa ribet.
+            </p>
+            <ul class="hero-trust">
+              <li>Bebas Pilih Hewan</li>
+              <li>Penyembelihan Sesuai Sunnah</li>
+              <li>Diantar Sampai Rumah</li>
+            </ul>
+            <div class="hero-actions">
+              <a href="#paket" class="btn btn-primary" data-track="hero_lihat_paket">Lihat Paket Aqiqah</a>
+              <a
+                href="https://wa.me/6282192570822?text=Assalamu%27alaikum%2C%20saya%20ingin%20konsultasi%20layanan%20Aqiqah%20dan%20Qurban."
+                target="_blank"
+                rel="noopener"
+                class="btn btn-outline"
+                data-track="hero_chat_whatsapp"
+                >Chat WhatsApp</a
+              >
+            </div>
+            <p class="hero-urgency">Promo: Aqiqah Paket Mentah mulai 1 juta, Qurban Praktis mulai 1.2 juta.</p>
+          </div>
+          <div class="hero-image reveal">
+            <img src="halamanberanda.png" alt="Ilustrasi layanan aqiqah modern" decoding="async" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Keunggulan Section -->
+      <section class="section section-white features" id="keunggulan">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Kenapa Memilih Kami</p>
+            <h2>Alasan Memilih Hakim Aqiqah &amp; Qurban</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <img
+                class="feature-illustration"
+                src="assets/keunggulan/syariat.svg"
+                alt="Ilustrasi sesuai syariat"
+                loading="lazy"
+                decoding="async"
+              />
+              <h3>Bebas Pilih Hewan</h3>
+              <p>Bebas pilih hewan aqiqah atau qurban sesuai kebutuhan keluarga Anda.</p>
+            </article>
+            <article class="feature-card reveal">
+              <img
+                class="feature-illustration"
+                src="assets/keunggulan/kualitas.svg"
+                alt="Ilustrasi daging berkualitas"
+                loading="lazy"
+                decoding="async"
+              />
+              <h3>Hewan Memenuhi Syarat</h3>
+              <p>Hewan cukup umur dan memenuhi syarat aqiqah maupun qurban.</p>
+            </article>
+            <article class="feature-card reveal">
+              <img
+                class="feature-illustration"
+                src="assets/keunggulan/antar.svg"
+                alt="Ilustrasi layanan antar gratis"
+                loading="lazy"
+                decoding="async"
+              />
+              <h3>Dokumentasi Transparan</h3>
+              <p>Bisa lihat penyembelihan langsung atau dokumentasi via WhatsApp.</p>
+            </article>
+            <article class="feature-card reveal">
+              <img
+                class="feature-illustration"
+                src="assets/keunggulan/higienis.svg"
+                alt="Ilustrasi higienis dan halal"
+                loading="lazy"
+                decoding="async"
+              />
+              <h3>Sesuai Sunnah</h3>
+              <p>Penyembelihan dilakukan sesuai sunnah dan prosesnya terbuka.</p>
+            </article>
+            <article class="feature-card reveal">
+              <img
+                class="feature-illustration"
+                src="assets/keunggulan/rasa.svg"
+                alt="Ilustrasi rasa teruji"
+                loading="lazy"
+                decoding="async"
+              />
+              <h3>Rasa Teruji</h3>
+              <p>Rasa masakan nikmat dan sudah terbukti dari berbagai testimoni customer.</p>
+            </article>
+            <article class="feature-card reveal">
+              <img
+                class="feature-illustration"
+                src="assets/keunggulan/praktis.svg"
+                alt="Ilustrasi praktis tanpa repot"
+                loading="lazy"
+                decoding="async"
+              />
+              <h3>Praktis Tanpa Repot</h3>
+              <p>Anda tinggal pilih paket, tim kami yang mengurus proses dari awal sampai akhir.</p>
+            </article>
+            <article class="feature-card reveal">
+              <img
+                class="feature-illustration"
+                src="assets/keunggulan/gratis.svg"
+                alt="Ilustrasi gratis antar"
+                loading="lazy"
+                decoding="async"
+              />
+              <h3>Gratis Antar</h3>
+              <p>Pesanan aqiqah diantar sampai rumah sesuai jadwal.</p>
+            </article>
+            <article class="feature-card reveal">
+              <img
+                class="feature-illustration"
+                src="assets/keunggulan/transparan.svg"
+                alt="Ilustrasi proses transparan"
+                loading="lazy"
+                decoding="async"
+              />
+              <h3>Proses Transparan</h3>
+              <p>Setiap tahap jelas, terbuka, dan mudah dipantau oleh customer.</p>
+            </article>
+            <article class="feature-card feature-card-photo reveal">
+              <img
+                class="feature-illustration feature-photo"
+                src="Tambahan/Bisa%20datang%20lihat%20langsung%20penyembelihan.jpg"
+                alt="Pelanggan bisa datang langsung melihat proses penyembelihan"
+                loading="lazy"
+                decoding="async"
+              />
+              <h3>Bisa Datang Lihat Langsung Penyembelihan</h3>
+              <p>Customer dapat hadir langsung untuk menyaksikan proses aqiqah secara terbuka.</p>
+            </article>
+            <article class="feature-card feature-card-photo reveal">
+              <img
+                class="feature-illustration feature-photo"
+                src="Tambahan/Pemotongan%20dilakukan%20sesuai%20syariat%20islam.jpg"
+                alt="Proses pemotongan dilakukan sesuai syariat Islam"
+                loading="lazy"
+                decoding="async"
+              />
+              <h3>Pemotongan Dilakukan Sesuai Syariat Islam</h3>
+              <p>Setiap tahapan penyembelihan dilaksanakan sesuai tuntunan syariat dan sunnah.</p>
+            </article>
+            <article class="feature-card feature-card-photo reveal">
+              <img
+                class="feature-illustration feature-photo"
+                src="Tambahan/Penyaluran%20ke%20pondok%20pesantren.jpg"
+                alt="Penyaluran aqiqah ke pondok pesantren"
+                loading="lazy"
+                decoding="async"
+              />
+              <h3>Penyaluran ke Pondok Pesantren</h3>
+              <p>Amanah penyaluran dilakukan ke pondok pesantren dan pihak yang membutuhkan.</p>
+            </article>
+            <article class="feature-card feature-card-photo reveal">
+              <img
+                class="feature-illustration feature-photo"
+                src="Tambahan/memiliki%20sertifikat.jpg"
+                alt="Dokumentasi sertifikat layanan aqiqah"
+                loading="lazy"
+                decoding="async"
+              />
+              <h3>Memiliki Sertifikat</h3>
+              <p>Tersedia sertifikat sebagai bukti pelaksanaan aqiqah yang jelas dan terpercaya.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimoni Section -->
+      <section class="section section-white photo-testimonials" id="testimoni">
+        <div class="container">
+          <div class="testimonial-group reveal">
+            <h2 class="photo-gallery-heading">Testimoni Pelanggan Kami</h2>
+            <div class="photo-gallery-slider">
+              <div class="photo-gallery-wrapper">
+                <div class="photo-gallery-track">
+                  <article class="photo-gallery-slide">
+                    <img
+                      src="Testimon/testimon1.jpg"
+                      alt="Testimoni pelanggan kami 1"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </article>
+                  <article class="photo-gallery-slide">
+                    <img
+                      src="Testimon/testimon2.jpg"
+                      alt="Testimoni pelanggan kami 2"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </article>
+                  <article class="photo-gallery-slide">
+                    <img
+                      src="Testimon/testimon3.jpg"
+                      alt="Testimoni pelanggan kami 3"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </article>
+                  <article class="photo-gallery-slide">
+                    <img
+                      src="Testimon/testimon4.jpg"
+                      alt="Testimoni pelanggan kami 4"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-group reveal">
+            <h2 class="photo-gallery-heading">Review Jujur Pelanggan di Google Maps</h2>
+            <div class="photo-gallery-slider">
+              <div class="photo-gallery-wrapper">
+                <div class="photo-gallery-track">
+                  <article class="photo-gallery-slide">
+                    <img
+                      src="Testimon/reviewgmaps1.jpg"
+                      alt="Review jujur pelanggan di Google Maps 1"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </article>
+                  <article class="photo-gallery-slide">
+                    <img
+                      src="Testimon/reviewgmaps2.jpg"
+                      alt="Review jujur pelanggan di Google Maps 2"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </article>
+                  <article class="photo-gallery-slide">
+                    <img
+                      src="Testimon/reviewgmaps3.jpg"
+                      alt="Review jujur pelanggan di Google Maps 3"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </article>
+                  <article class="photo-gallery-slide">
+                    <img
+                      src="Testimon/reviewgmaps4.jpg"
+                      alt="Review jujur pelanggan di Google Maps 4"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Paket Harga Section -->
+      <section class="section section-green pricing" id="paket">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Macam-Macam Paket Aqiqah</p>
+            <h2>Paket Aqiqah Sesuai Budget</h2>
+          </div>
+          <div class="pricing-grid">
+            <article class="pricing-card reveal">
+              <p class="package-name">Paket Mentah</p>
+              <h3>Mulai Rp1.000.000</h3>
+              <p class="price-note">Pilihan hemat untuk keluarga yang ingin olah sendiri</p>
+              <ul>
+                <li>Bebas pilih hewan</li>
+                <li>Hewan cukup umur &amp; sesuai syarat</li>
+                <li>Penyembelihan sesuai sunnah</li>
+                <li>Bisa dokumentasi via WhatsApp</li>
+              </ul>
+              <a
+                href="https://wa.me/6282192570822?text=Assalamu%27alaikum%2C%20saya%20ingin%20pesan%20Aqiqah%20Paket%20Mentah."
+                target="_blank"
+                rel="noopener"
+                class="btn btn-primary btn-full"
+                data-track="paket_mentah_click"
+                >Pesan Paket Mentah via WA</a
+              >
+            </article>
+            <article class="pricing-card recommended reveal">
+              <span class="badge">Paling Banyak Dipilih</span>
+              <p class="package-name">Paket Masak Kare</p>
+              <h3>Mulai Rp1.400.000</h3>
+              <p class="price-note">Menu kare siap saji, paling sering dipesan</p>
+              <ul>
+                <li>Olahan kare siap santap</li>
+                <li>Penyembelihan sesuai sunnah</li>
+                <li>Proses transparan</li>
+                <li>Rasa nikmat teruji</li>
+              </ul>
+              <a
+                href="https://wa.me/6282192570822?text=Assalamu%27alaikum%2C%20saya%20ingin%20pesan%20Aqiqah%20Paket%20Masak%20Kare."
+                target="_blank"
+                rel="noopener"
+                class="btn btn-primary btn-full"
+                data-track="paket_kare_click"
+                >Pesan Paket Kare via WA</a
+              >
+            </article>
+            <article class="pricing-card reveal">
+              <p class="package-name">Paket Box</p>
+              <h3>Mulai Rp2.750.000</h3>
+              <p class="price-note">Cocok untuk dibagikan ke tetangga dan kerabat</p>
+              <ul>
+                <li>Siap box untuk dibagikan</li>
+                <li>Dokumentasi penyembelihan</li>
+                <li>Proses higienis</li>
+                <li>Diantar sampai rumah</li>
+              </ul>
+              <a
+                href="https://wa.me/6282192570822?text=Assalamu%27alaikum%2C%20saya%20ingin%20pesan%20Aqiqah%20Paket%20Box."
+                target="_blank"
+                rel="noopener"
+                class="btn btn-primary btn-full"
+                data-track="paket_box_click"
+                >Pesan Paket Box via WA</a
+              >
+            </article>
+            <article class="pricing-card reveal">
+              <p class="package-name">Paket Bento</p>
+              <h3>Mulai Rp2.500.000</h3>
+              <p class="price-note">Kemasan premium, tampilan lebih eksklusif</p>
+              <ul>
+                <li>Menu bento siap saji</li>
+                <li>Kemasan eksklusif</li>
+                <li>Praktis tanpa repot</li>
+                <li>Gratis antar (S&amp;K berlaku)</li>
+              </ul>
+              <a
+                href="https://wa.me/6282192570822?text=Assalamu%27alaikum%2C%20saya%20ingin%20pesan%20Aqiqah%20Paket%20Bento."
+                target="_blank"
+                rel="noopener"
+                class="btn btn-primary btn-full"
+                data-track="paket_bento_click"
+                >Pesan Paket Bento via WA</a
+              >
+            </article>
+          </div>
+          <div class="inline-cta reveal">
+            <p>Dapatkan rekomendasi paket paling pas berdasarkan budget dan jumlah porsi.</p>
+            <a
+              class="btn btn-whatsapp"
+              href="https://wa.me/6282192570822?text=Assalamu%27alaikum%2C%20tolong%20bantu%20saya%20pilih%20paket%20Aqiqah."
+              target="_blank"
+              rel="noopener"
+              data-track="paket_inline_cta"
+              >Konsultasi Paket Sekarang</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Proses Pemesanan Section -->
+      <section class="section section-white process" id="proses">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Mudah &amp; Cepat</p>
+            <h2>Proses Pemesanan</h2>
+          </div>
+          <div class="process-grid">
+            <article class="process-step reveal">
+              <div class="step-icon">&#9742;</div>
+              <h3>1. Konsultasi</h3>
+              <span class="step-time">Estimasi 5 menit</span>
+              <p>Hubungi tim kami via WhatsApp untuk konsultasi kebutuhan aqiqah atau qurban.</p>
+            </article>
+            <article class="process-step reveal">
+              <div class="step-icon">&#9998;</div>
+              <h3>2. Pilih Paket</h3>
+              <span class="step-time">Estimasi 10 menit</span>
+              <p>Pilih paket sesuai budget dan jumlah porsi yang Anda inginkan.</p>
+            </article>
+            <article class="process-step reveal">
+              <div class="step-icon">&#128017;</div>
+              <h3>3. Proses Aqiqah</h3>
+              <span class="step-time">Sesuai tanggal jadwal</span>
+              <p>Kami lakukan penyembelihan, masak, dan packing secara profesional.</p>
+            </article>
+            <article class="process-step reveal">
+              <div class="step-icon">&#128666;</div>
+              <h3>4. Antar Pesanan</h3>
+              <span class="step-time">Estimasi 1-2 jam</span>
+              <p>Pesanan dikirim tepat waktu ke lokasi Anda dalam kondisi rapi.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Qurban Section -->
+      <section class="section section-white qurban" id="qurban">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Layanan Qurban</p>
+            <h2>Qurban Praktis Anti Ribet Mulai 1.2 Juta</h2>
+          </div>
+          <div class="qurban-card reveal">
+            <p class="qurban-intro">
+              Qurban praktis tanpa repot: pilih domba sendiri, kami urus perawatan sampai hari H, proses sembelih, packing, hingga penyaluran.
+            </p>
+            <ul class="qurban-list">
+              <li>Bebas pilih domba Anda</li>
+              <li>Gratis perawatan sampai hari H</li>
+              <li>Gratis penyembelihan</li>
+              <li>Gratis dokumentasi</li>
+              <li>Gratis drop ke masjid</li>
+              <li>Gratis pengemasan</li>
+              <li>Gratis penyaluran ke pondok pesantren, masjid, panti asuhan, dan lainnya</li>
+              <li>Gratis pengantaran sampai tempat (S&amp;K berlaku)</li>
+              <li>Gratis goodie bag &amp; souvenir</li>
+            </ul>
+            <a
+              class="btn btn-whatsapp"
+              href="https://wa.me/6282192570822?text=Assalamu%27alaikum%2C%20saya%20ingin%20konsultasi%20Qurban%20Praktis%20mulai%201.2%20juta."
+              target="_blank"
+              rel="noopener"
+              data-track="qurban_cta"
+              >Konsultasi Qurban Sekarang</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Mini Lead Form -->
+      <section class="section section-white quick-form" id="konsultasi">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Konsultasi Singkat</p>
+            <h2>Dapatkan Rekomendasi Aqiqah &amp; Qurban</h2>
+          </div>
+          <form id="quickLeadForm" class="lead-form reveal">
+            <label>
+              Nama
+              <input type="text" name="nama" placeholder="Nama Anda" required />
+            </label>
+            <label>
+              Tanggal Pelaksanaan
+              <input type="date" name="tanggal" required />
+            </label>
+            <label>
+              Pilihan Layanan
+              <select name="paket" required>
+                <option value="">Pilih layanan</option>
+                <option value="Aqiqah Paket Mentah">Aqiqah Paket Mentah</option>
+                <option value="Aqiqah Paket Masak Kare">Aqiqah Paket Masak Kare</option>
+                <option value="Aqiqah Paket Box">Aqiqah Paket Box</option>
+                <option value="Aqiqah Paket Bento">Aqiqah Paket Bento</option>
+                <option value="Qurban Praktis">Qurban Praktis</option>
+              </select>
+            </label>
+            <button type="submit" class="btn btn-whatsapp btn-full" data-track="lead_form_submit">
+              Kirim ke WhatsApp
+            </button>
+          </form>
+          <p class="form-note reveal">Form ini akan membuka WhatsApp otomatis dengan data Anda.</p>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="section section-green faq" id="faq">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Pertanyaan Umum</p>
+            <h2>FAQ Hakim Aqiqah &amp; Qurban</h2>
+          </div>
+          <div class="faq-list">
+            <details class="faq-item reveal">
+              <summary>Apakah penyembelihan benar-benar sesuai syariat?</summary>
+              <p>Ya, penyembelihan dilakukan sesuai sunnah dengan proses yang transparan.</p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>Berapa minimal waktu pemesanan sebelum hari H?</summary>
+              <p>Idealnya 2-3 hari sebelum hari pelaksanaan agar persiapan optimal.</p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>Apakah saya bisa pilih hewan aqiqah atau qurban sendiri?</summary>
+              <p>Bisa, Anda bebas memilih hewan sesuai kebutuhan dan anggaran.</p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>Apakah ada dokumentasi penyembelihan?</summary>
+              <p>Ada. Anda bisa melihat langsung atau menerima dokumentasi via WhatsApp.</p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>Apakah qurban sudah termasuk penyaluran?</summary>
+              <p>Ya, tersedia penyaluran ke pondok pesantren, masjid, panti asuhan, dan lainnya.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="section cta">
+        <div class="container cta-box reveal">
+          <h2>Siap Aqiqah &amp; Qurban Tanpa Ribet?</h2>
+          <p>Konsultasikan kebutuhan Anda sekarang dan pilih paket terbaik sesuai budget.</p>
+          <a
+            href="https://wa.me/6282192570822?text=Assalamu%27alaikum%2C%20saya%20siap%20order%20layanan%20Aqiqah%20dan%20Qurban."
+            target="_blank"
+            rel="noopener"
+            class="btn btn-whatsapp btn-large"
+            data-track="footer_cta_whatsapp"
+            >Chat WhatsApp Sekarang</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer section" id="kontak">
+      <div class="container footer-grid">
+        <div>
+          <h3>Hakim Aqiqah &amp; Qurban</h3>
+          <p class="footer-with-icon">
+            <img src="assets/icons/location.svg" alt="" aria-hidden="true" />
+            <span>Desa Pasar V Kebun Kelapa, Kec.Beringin, Kab Deli Serdang, Medan, Indonesia 20552</span>
+          </p>
+        </div>
+        <div>
+          <h3>Kontak</h3>
+          <p class="footer-with-icon">
+            <img src="assets/icons/whatsapp.svg" alt="" aria-hidden="true" />
+            <a class="footer-link" href="https://wa.me/6282192570822" target="_blank" rel="noopener">WhatsApp 1: 0821 9257 0822</a>
+          </p>
+          <p class="footer-with-icon">
+            <img src="assets/icons/phone.svg" alt="" aria-hidden="true" />
+            <a class="footer-link" href="https://wa.me/6282164901418" target="_blank" rel="noopener">WhatsApp 2: 0821 6490 1418</a>
+          </p>
+          <p class="footer-with-icon">
+            <img src="assets/icons/mail.svg" alt="" aria-hidden="true" />
+            <a class="footer-link" href="mailto:hello@hakimaqiqahqurban.id">Email: hello@hakimaqiqahqurban.id</a>
+          </p>
+        </div>
+        <div>
+          <h3>Sosial Media</h3>
+          <p class="footer-with-icon">
+            <img src="assets/icons/instagram.svg" alt="" aria-hidden="true" />
+            <a class="footer-link" href="https://www.instagram.com/aqiqahhakim/" target="_blank" rel="noopener">Instagram: @aqiqahhakim</a>
+          </p>
+          <p class="footer-with-icon">
+            <img src="assets/icons/facebook.svg" alt="" aria-hidden="true" />
+            <a class="footer-link" href="https://www.facebook.com/hakimaqiqah" target="_blank" rel="noopener">Facebook: hakim aqiqah</a>
+          </p>
+          <p class="footer-with-icon">
+            <img src="assets/icons/tiktok.svg" alt="" aria-hidden="true" />
+            <a class="footer-link" href="https://www.tiktok.com/@hakimaqiqah" target="_blank" rel="noopener">TikTok: hakim aqiqah</a>
+          </p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2026 Hakim Aqiqah &amp; Qurban. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <a
+      href="https://wa.me/6282192570822?text=Assalamu%27alaikum%2C%20saya%20ingin%20konsultasi%20Aqiqah%20dan%20Qurban."
+      class="floating-wa"
+      target="_blank"
+      rel="noopener"
+      data-track="floating_whatsapp"
+      >Chat WhatsApp</a
+    >
+    <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">
+      &#8679;
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
