@@ -125,6 +125,31 @@ ul {
   border-bottom: 1px solid rgba(225, 27, 34, 0.12);
 }
 
+/* Alternating section backgrounds: white, red, white, red ... */
+main > .section:nth-of-type(odd):not(.cta) {
+  background:
+    radial-gradient(circle at 8% 12%, rgba(255, 242, 214, 0.82), rgba(255, 255, 255, 0) 30%),
+    radial-gradient(circle at 92% 78%, rgba(250, 218, 166, 0.38), rgba(255, 255, 255, 0) 38%),
+    #ffffff;
+}
+
+main > .section:nth-of-type(even):not(.cta) {
+  background:
+    radial-gradient(circle at 12% 15%, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0) 30%),
+    radial-gradient(circle at 85% 75%, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0) 36%),
+    linear-gradient(180deg, #d9151d, #b30f15);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+main > .section:nth-of-type(even):not(.cta) .section-heading h2 {
+  color: #fff;
+}
+
+main > .section:nth-of-type(even):not(.cta) .eyebrow {
+  color: #ffe3e5;
+}
+
 .section-heading {
   text-align: center;
   margin-bottom: 2rem;
